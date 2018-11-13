@@ -196,7 +196,7 @@ namespace SirmaInternProject
                     }
                 }
             }
-            Console.WriteLine(employees[index].Id + ", " + employees[index].EmployeesWorkingAtSameMaxTimeOnTheSameProject[0].Id);
+            Console.WriteLine("Employee id: "+ employees[index].Id + ", Employee id: "  + employees[index].EmployeesWorkingAtSameMaxTimeOnTheSameProject[0].Id);
         }
     }
 }
